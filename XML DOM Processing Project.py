@@ -1,7 +1,6 @@
 '''XML Processing using xml.dom'''
 
 import xml.dom.minidom
-import re
 
 # Creating a domtree from the XML file
 domtree = xml.dom.minidom.parse('people.xml')
